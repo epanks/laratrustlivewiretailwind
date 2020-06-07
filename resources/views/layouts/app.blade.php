@@ -50,9 +50,13 @@
                 </div>
             </div>
         </nav>
+        <livewire:header></livewire:header>
+
+
 
         @yield('content')
     </div>
+    <livewire:footer></livewire:footer>
     @livewireScripts
 </body>
 
