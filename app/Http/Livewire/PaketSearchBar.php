@@ -18,7 +18,7 @@ class PaketSearchBar extends Component
 
     public function reset_input()
     {
-        //$this->reset();
+        $this->reset();
         $this->query = '';
         $this->datapaket = [];
         $this->highlightIndex = 0;

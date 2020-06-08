@@ -7,7 +7,7 @@ use Livewire\Component;
 
 class Index extends Component
 {
-    public $datapaket;
+    //public $datapaket;
 
     public function render()
     {
